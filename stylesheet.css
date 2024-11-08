@@ -1,0 +1,106 @@
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/*Import Font*/
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif:wght@400&display=swap');
+@import url('https://fonts.google.com/specimen/Outfit');
+
+/* reset basic style*/
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    img, video {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .youngserif_font {
+        font-family: 'Young Serif', serif;
+        font-weight: 400;
+    }
+
+    .outfit_font{
+        font-family: 'Outfit', sans-serif;
+        font-weight: 400;
+    }
+
+    /*color */
+
+    .stone_100{
+        color: hsl(30, 54%, 90%);
+    }
+
+    .stone_150{
+        color: hsl(30, 18%, 87%);
+    }
+
+    .stone_600{
+        color: hsl(30, 10%, 34%);
+    }
+
+    .stone_900{
+        color: hsl(24, 5%, 18%);
+    }
+
+    .rose_800{
+        color: hsl(332, 51%, 32%);
+    }
+
+    .rose_50{
+        color: hsl(330, 100%, 98%);
+    }
+
+    p, .paragraph_fontsize{
+        font-size: 12px;
+    }
+
+    /*body */
+    body {
+        background-color: hsl(30, 54%, 90%);
+    }
+
+
+    #recipe_background{
+        background-color: hsl(0, 0%, 100%);
+        margin: 50px auto;
+        padding: 25px;
+        width: 60vw;
+        max-width: 70vh;
+        min-height: 90%;
+        border-radius: 8px;
+    }
+
+    #omelette_header{
+        padding: 20px 0;
+    }
+
+    #header_paragraph{
+        padding-bottom: 20px;
+    }
+
+    #omelette_jpg{
+        width: 600px;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    #preptime_div{
+        padding: 15px;
+    }
+
+    #ingredients_div{
+        padding: 15px;
+    }
+
+    #instructions_div{
+        padding: 15px;
+    }
+
+    ul, ol{
+        margin-left: 15px;
+        margin-top: 12px;
+    }
