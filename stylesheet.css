@@ -1,106 +1,187 @@
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-
 /*Import Font*/
-@import url('https://fonts.googleapis.com/css2?family=Young+Serif:wght@400&display=swap');
-@import url('https://fonts.google.com/specimen/Outfit');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Outfit:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap");
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
 
 /* reset basic style*/
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
-    img, video {
-        max-width: 100%;
-        height: auto;
-    }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-    .youngserif_font {
-        font-family: 'Young Serif', serif;
-        font-weight: 400;
-    }
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
 
-    .outfit_font{
-        font-family: 'Outfit', sans-serif;
-        font-weight: 400;
-    }
+/* font */
+.youngserif_font {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
 
-    /*color */
+.outfit_font_400 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+}
 
-    .stone_100{
-        color: hsl(30, 54%, 90%);
-    }
+.outfit_font_600 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+}
 
-    .stone_150{
-        color: hsl(30, 18%, 87%);
-    }
+.outfit_font_700 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+}
 
-    .stone_600{
-        color: hsl(30, 10%, 34%);
-    }
+/* color */
 
-    .stone_900{
-        color: hsl(24, 5%, 18%);
-    }
+.stone_100 {
+  color: hsl(30, 54%, 90%);
+}
 
-    .rose_800{
-        color: hsl(332, 51%, 32%);
-    }
+.stone_150 {
+  color: hsl(30, 18%, 87%);
+}
 
-    .rose_50{
-        color: hsl(330, 100%, 98%);
-    }
+.stone_600 {
+  color: hsl(30, 10%, 34%);
+}
 
-    p, .paragraph_fontsize{
-        font-size: 12px;
-    }
+.stone_900 {
+  color: hsl(24, 5%, 18%);
+}
 
-    /*body */
-    body {
-        background-color: hsl(30, 54%, 90%);
-    }
+.rose_800 {
+  color: hsl(332, 51%, 32%);
+}
 
+.rose_50 {
+  color: hsl(330, 100%, 98%);
+}
 
-    #recipe_background{
-        background-color: hsl(0, 0%, 100%);
-        margin: 50px auto;
-        padding: 25px;
-        width: 60vw;
-        max-width: 70vh;
-        min-height: 90%;
-        border-radius: 8px;
-    }
+.brown_800 {
+  color: hsl(14, 45%, 36%);
+}
 
-    #omelette_header{
-        padding: 20px 0;
-    }
+/* text */
+.bullet_text {
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+}
 
-    #header_paragraph{
-        padding-bottom: 20px;
-    }
+.header_fontsize {
+  font-size: 24px;
+}
 
-    #omelette_jpg{
-        width: 600px;
-        height: auto;
-        border-radius: 8px;
-    }
+.span_bold {
+  font-weight: 700;
+  color: hsl(30, 10%, 34%);
+}
 
-    #preptime_div{
-        padding: 15px;
-    }
+.text_bold{
+    font-weight: 700;
+}
 
-    #ingredients_div{
-        padding: 15px;
-    }
+/*body */
+body {
+  background-color: hsl(30, 54%, 90%);
+}
 
-    #instructions_div{
-        padding: 15px;
-    }
+#recipe_background {
+  background-color: hsl(0, 0%, 100%);
+  margin: 75px auto;
+  padding: 35px;
+  width: 85vw;
+  max-width: 85vh;
+  min-height: 90%;
+  border-radius: 16px;
+}
 
-    ul, ol{
-        margin-left: 15px;
-        margin-top: 12px;
-    }
+#omelette_jpg {
+  width: 600px;
+  height: auto;
+  border-radius: 8px;
+}
+
+#omelette_header {
+  padding: 20px 0;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+#header_paragraph {
+  padding-bottom: 20px;
+}
+
+#preptime_header {
+  font-size: 18px;
+}
+
+#preptime_div {
+  padding: 15px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#ingredients_div {
+  padding: 15px;
+  margin-top: 5px;
+}
+
+#instructions_div {
+  padding: 15px;
+}
+
+#nutrition_div {
+  padding: 15px;
+}
+
+#nutrition_paragraph {
+  margin-left: 15px;
+}
+
+ul,
+ol {
+  margin-left: 18px;
+  margin-top: 12px;
+}
+
+li {
+  padding-left: 23px;
+  font-size: 15px;
+  color: hsl(14, 45%, 36%);
+  margin: 10px 0;
+}
+
+ol > li::marker {
+    font-weight: 700;
+  }
+
+table {
+  width: 88%;
+  margin: 10px auto;
+}
+
+td {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding: 10px 10px;
+}
+
+.divider{
+    background-color: hsl(30, 18%, 87%);
+    height: 1px;
+    width: 100%;
+    margin: 10px 0;
+}
